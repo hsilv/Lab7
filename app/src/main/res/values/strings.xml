@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NavigationProject</string>
+    <string name="login_email_input_hint">Ingresa tu correo</string>
+    <string name="login_title_text">Laboratorio 7</string>
+    <string name="login_button_text">Iniciar Sesión</string>
+    <string name="create_user_buttonText">¿Nuevo usuario? Crea tu cuenta aquí</string>
+    <string name="create_new_account_button">Crear cuenta</string>
+    <string name="create_account_fr_title">Nueva cuenta</string>
+    <string name="update_profile_button_text">Actualizar Perfil</string>
+    <string name="hello_email">Hola @correo, necesitamos que actualices tu perfil</string>
+    <string name="good_morning">¡Buenos Días!</string>
 </resources>
