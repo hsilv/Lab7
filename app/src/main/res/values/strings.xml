@@ -9,4 +9,8 @@
     <string name="update_profile_button_text">Actualizar Perfil</string>
     <string name="hello_email">Hola @correo, necesitamos que actualices tu perfil</string>
     <string name="good_morning">¡Buenos Días!</string>
+    <string name="login_graph_label">Login</string>
+    <string name="new_account_label">New Account</string>
+    <string name="home_label">Home</string>
+    <string name="profile_graph_label">Profile</string>
 </resources>

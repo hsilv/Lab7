@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.silva.navigationproject.LoginFragment"
-        android:label="login_fragment"
+        android:label="@string/login_graph_label"
         tools:layout="@layout/login_fragment" >
         <action
             android:id="@+id/action_loginFragment_to_newAccountFragment"
@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/newAccountFragment"
         android:name="com.silva.navigationproject.NewAccountFragment"
-        android:label="new_account_fragment"
+        android:label="@string/new_account_label"
         tools:layout="@layout/new_account_fragment" >
         <action
             android:id="@+id/action_newAccountFragment_to_homeFragment"
@@ -29,7 +29,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.silva.navigationproject.HomeFragment"
-        android:label="home_fragment"
+        android:label="@string/home_label"
         tools:layout="@layout/home_fragment" >
         <action
             android:id="@+id/action_homeFragment_to_profileFragment"
@@ -38,7 +38,7 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.silva.navigationproject.ProfileFragment"
-        android:label="profile_fragment"
+        android:label="@string/profile_graph_label"
         tools:layout="@layout/profile_fragment" >
         <action
             android:id="@+id/action_profileFragment_to_loginFragment"
