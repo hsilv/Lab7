@@ -12,7 +12,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Mi perfil"
+        android:text="@string/my_profil_title"
         android:textSize="@dimen/titles_size"
         android:textStyle="bold"
         android:layout_marginTop="34dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@id/camera_icon_circle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="jcdurini@uvg.edu.gt"
+        android:hint=""
         android:layout_marginHorizontal="@dimen/horizontal_padding"
         android:layout_marginTop="24dp"
         app:startIconDrawable="@drawable/email_icon"
@@ -57,6 +57,7 @@
             android:id="@+id/email_input"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
+        android:id="@+id/update_final_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +65,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginHorizontal="@dimen/horizontal_padding"
         android:layout_marginVertical="24dp"
-        android:text="Actualizar"
+        android:text="@string/update_button_text"
         android:textAllCaps="false"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

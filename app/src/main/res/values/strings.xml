@@ -13,4 +13,6 @@
     <string name="new_account_label">New Account</string>
     <string name="home_label">Home</string>
     <string name="profile_graph_label">Profile</string>
+    <string name="update_button_text">Actualizar</string>
+    <string name="my_profil_title">Mi perfil</string>
 </resources>

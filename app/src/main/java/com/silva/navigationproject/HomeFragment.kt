@@ -22,7 +22,8 @@ class HomeFragment: Fragment(R.layout.home_fragment) {
 
     private fun setListeners() {
         updateButton.setOnClickListener{
-            requireView().findNavController().navigate(R.id.action_homeFragment_to_profileFragment)
+            val action = HomeFragmentDirections.actionHomeFragmentToProfileFragment(args.email)
+            requireView().findNavController().navigate(action)
         }
     }
 
